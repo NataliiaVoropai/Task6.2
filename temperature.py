@@ -1,6 +1,6 @@
-def celsius_to_farenheit(celsius):
+def celsius_to_fahrenheit(celsius):
     return (celsius * 9/5) + 32
 
 
-def farenheit_to_celsius(farenheit):
-    return (farenheit - 32) * 9/5
+def fahrenheit_to_celsius(fahrenheit):
+    return (fahrenheit - 32) * 5/9
