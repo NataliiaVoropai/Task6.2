@@ -40,6 +40,6 @@ def standardize(input_file, output_file, target_temp, target_dist):
 if __name__ == '__main__':
     input_file = 'input_data.csv'
     output_file = 'standardized_measurements.csv'
-    target_temp = 'C'
+    target_temp = 'F'
     target_dist = 'm'
     standardize(input_file, output_file, target_temp, target_dist)
